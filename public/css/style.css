@@ -1,6 +1,10 @@
-h1,h2, h3, h4, h5, h6, p,li, td, th, label, input{
-    font-family: 'Montserrat', sans-serif;
+h3, h4, h5, h6, p,li, td, th, label, input, select,a{
+    font-family: 'Open Sans', sans-serif;
     color: rgb(84, 87, 87);
+}
+h1,h2{
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(0, 0, 0);
 }
 nav li a{
     display: inline;
@@ -11,7 +15,7 @@ li{
     text-decoration: none;
 }
 body{
-background: no-repeat url("/images/workspace.jpg");
+background: no-repeat url("/images/comics.jpeg");
 background-size: cover;
 display: flex;
 flex-direction: column;
@@ -20,7 +24,7 @@ margin: 0;
 
 }  
     #menu ul {
-margin:0;
+margin-left:0;
 padding:0;
 list-style-type:none;
 text-align:center;
@@ -50,21 +54,24 @@ justify-content: center;
 }
 
 #containMenu{
-    background-color: rgba(61, 56, 56, 0.432);
+    background-color: rgba(61, 56, 56, 0.747);
     display: flex;
     flex-direction: row;
     justify-content: center; 
 }
 i{
-    color: rgb(84, 87, 87);
+    color: rgb(0, 0, 0);
     font-size: 400%;
     margin-top: 2%;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 #myTitle{
     font-weight: bold;
+    color: rgb(0, 0, 0);
     font-size: 200%;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Bungee Shade', cursive;
     text-align: center;
+    text-shadow: 1px 1px 1px rgb(255, 252, 252);
 }
 #logo{
 display: flex;
@@ -83,16 +90,14 @@ td{
 .contenu{
     margin: 5%;
     padding: 3%;
-    background-color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(255, 255, 255, 0.863);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.image{
-    width:35%;
-}
+
 button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border: 0;
     line-height: 1.5;
     padding: 0 20px;
@@ -100,7 +105,7 @@ button {
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 5px;
-    background-color: rgba(73, 63, 63, 0.466);
+    background-color: rgba(50, 93, 156, 0.466);
     background-image: linear-gradient(to top left,
                                       rgba(0, 0, 0, .2),
                                       rgba(0, 0, 0, .2) 50%,
@@ -109,9 +114,9 @@ button {
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 th{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
     color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 1px #000;
     
 }
 a:link {
@@ -119,3 +124,47 @@ a:link {
     color: rgb(0, 0, 0);
     text-shadow: 1px 1px #000;
   }
+.redButton{
+    background-color: rgba(177, 34, 34, 0.466); 
+    font-family: 'Open Sans', sans-serif;
+    border: 0;
+    line-height: 1.5;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 50%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.yellowButton{
+    background-color: rgba(230, 199, 66, 0.466); 
+    font-family: 'Open Sans', sans-serif;
+    border: 0;
+    line-height: 1.5;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 50%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.center{
+    display: block;
+    margin: 0 auto;
+}
+.blueTitle{
+    color: #2790b9;
+    font-weight: 400;
+    font-size: large;
+}

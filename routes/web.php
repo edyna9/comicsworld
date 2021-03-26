@@ -17,10 +17,7 @@ use App\Http\Controllers\ActionController;
 
 Route::get('/', function () {return view('welcome');});
 
-
-
 Route::get('/home', [NavController::class, 'showHome']);
-
 
 Route::get('/list', [NavController::class, 'showList']);
 
@@ -37,7 +34,6 @@ Route::get('/updateCharacter/{id}', [NavController::class, 'showUpdateCharacter'
 Route::post('/updateCharacter', [ActionController::class, 'updateCharacter']);
 
 Route::get('/listDesigners', [NavController::class, 'showListDesigners']);
-
 
 Route::get('/addDesigner', [NavController::class, 'showAddDesigner']);
 
