@@ -1,0 +1,121 @@
+h1,h2, h3, h4, h5, h6, p,li, td, th, label, input{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(84, 87, 87);
+}
+nav li a{
+    display: inline;
+    text-decoration: none;
+    color: rgb(84, 87, 87);
+}
+li{
+    text-decoration: none;
+}
+body{
+background: no-repeat url("/images/workspace.jpg");
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 0;
+
+}  
+    #menu ul {
+margin:0;
+padding:0;
+list-style-type:none;
+text-align:center;
+}
+#menu li {
+float:left;
+margin:auto;
+padding:0;
+
+}
+#menu li a {
+display:block;
+width:100px;
+color:rgb(255, 255, 255);
+text-decoration:none;
+padding:5px;
+
+}
+#menu li a:hover {
+color:#2790b9;
+}
+
+body div{
+display: flex;
+flex-direction: column;
+justify-content: center; 
+}
+
+#containMenu{
+    background-color: rgba(61, 56, 56, 0.432);
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+i{
+    color: rgb(84, 87, 87);
+    font-size: 400%;
+    margin-top: 2%;
+}
+#myTitle{
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+}
+#logo{
+display: flex;
+flex-direction: column;
+justify-content: center; 
+text-align: center;
+
+}
+table {
+border-collapse: collapse;
+text-align: center;
+}
+td{
+    padding: 2%;
+}
+.contenu{
+    margin: 5%;
+    padding: 3%;
+    background-color: rgba(255, 255, 255, 0.719);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image{
+    width:35%;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    line-height: 1.5;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: rgba(73, 63, 63, 0.466);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 50%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+th{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #000;
+    
+}
+a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px #000;
+  }
